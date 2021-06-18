@@ -42,6 +42,13 @@ img{
   }.navigation{
     width: 100%;
     /* color : white; */
+  }.video{
+    border: 40px;
+    display: flex;
+    justify-content: center;
+  }.player{
+    width: 300px;
+    height: 600px;
   }
 }
 a{
