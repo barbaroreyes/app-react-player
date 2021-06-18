@@ -11,9 +11,7 @@ const Home = () => {
     .catch(err=>{
         console.log(err)
     })
-    setInterval(() =>{
-      
-    },1000)
+   
     },[])
     return (
         <div className ='boxs'>

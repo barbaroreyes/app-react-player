@@ -3,6 +3,8 @@ import {Switch,Route,Link} from 'react-router-dom'
 import Home from './components/Home';
 import Navigation from './components/Navigation';
 import Categories from './components/Categories';
+import Category from './components/Category';
+import Video from './components/VIdeo';
 import './App.css';
 
 function App() {
@@ -17,11 +19,11 @@ function App() {
        <Route exact path="/categories">
         <Categories/>
        </Route>
-       <Route path='category'> 
-       Category
+       <Route exact path='/category'> 
+       <Category/>
        </Route>
-       <Route path='item'>
-         item
+       <Route path='/:item'>
+         <Video/>
        </Route>
      </Switch>
     </div>
